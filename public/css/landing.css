@@ -1,0 +1,43 @@
+body {
+  font-family: "Saira Semi Condensed", "sans-serif";
+}
+.landing-body {
+  background: rgb(255, 255, 255);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(167, 151, 151, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(167, 151, 151, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(167, 151, 151, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#a79797",GradientType=1);
+}
+
+.landing-header {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+.landing-header h1 {
+  color: #a79797;
+  font-size: 5em;
+}
+.landing-header h4 {
+  color: #a79797;
+  font-size: 2em;
+  padding-bottom: 5%;
+}
+#landing-button {
+  color: whitesmoke;
+  background: #a79797;
+}

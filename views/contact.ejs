@@ -1,0 +1,31 @@
+<% include ./partials/header%> 
+    <div class="container">
+      <div class="page-header">
+        <h1>Contact Me</h1>
+      </div>
+      <div class="page-body">
+        <div class="jumbotron" id="contactForm">
+          <form action="/contact" method="POST">
+            <input type="text" class="form-control" name="contact[name]" placeholder="Name"/>
+            <input type="text" class="form-control" name="contact[email]" placeholder="Email"/>
+            <textarea class="form-control" name="contact[message]">Message</textarea>
+            <button type="submit" class="btn" id="submit1">Send</button>
+          </form>
+          <div class="row" id="contact">
+            <div class="col-md-4">
+              <h3 class="display-6">CONTACT ME</h3>
+              <p class="lead">+1 (867)689-9090</p>
+            </div>
+            <div class="col-md-4">
+              <h3 class="display-6">EMAIL ME</h3>
+              <p class="lead">ankitspatel1990@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+              <h3 class="display-6">MAIL ME</h3>
+              <p class="lead">165 Rundleson Way NE, Calgary, AB, Canada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<% include partials/footer %>
